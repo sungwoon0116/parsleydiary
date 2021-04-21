@@ -60,3 +60,4 @@ buck-out/
 
 # Additional
 .prettierrc.js
+.watchmanconfig
