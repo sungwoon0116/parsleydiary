@@ -5,6 +5,8 @@ import picc from './asset/icon/menu-main.png';
 import X from './asset/button/close-menu.png';
 import SH from './asset/button/menu-share.png';
 import SE from './asset/button/menu-settings.png';
+import CA from './asset/button/menu-calendar.png';
+import CO from './asset/icon/menu-cover.png';
 import AR from './asset/button/arr-button.png';
 
 const Header = () => (
@@ -18,13 +20,21 @@ const Header = () => (
     <Image source={SH}
     style={styles.sharei}/>
     <Text style={styles.setting}>Setting</Text>
+    <Text style={styles.cover}>Cover</Text>
+    <Text style={styles.cal}>Calendar</Text>
     <Text style={styles.arr}>Arrangement</Text>
     <Image source={SE}
     style={styles.se}/>
+    <Image source={CA}
+    style={styles.ca}/>
+    <Image source={CO}
+    style={styles.co}/>
     <Image source={AR}
     style={styles.ar}/>
+
     </View>
 )
+
 
 const styles = StyleSheet.create({
   coverlogo: {
@@ -138,7 +148,7 @@ arr: {
   color: '#000000',
   paddingLeft: 130,
   paddingTop :15,
-  marginTop: 200,
+  marginTop: 260,
   marginLeft: 44,
   width: '77%',
   height: '60%',
@@ -159,11 +169,27 @@ se: {
     position: 'absolute'
 
 },
+co: {
+  width: 17,
+    height: 17,
+    marginLeft: 240,
+    marginTop: 207,
+    position: 'absolute'
+
+},
+ca: {
+  width: 17,
+    height: 17,
+    marginLeft: 60,
+    marginTop: 207,
+    position: 'absolute'
+
+},
 ar: {
   width: 17,
     height: 17,
     marginLeft: 140,
-    marginTop: 217,
+    marginTop: 275,
     position: 'absolute'
 
 },

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import picc from './asset/icon/menu-main.png';
 import X from './asset/button/close-menu.png';
 import SH from './asset/button/menu-share.png';
